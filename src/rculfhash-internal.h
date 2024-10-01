@@ -76,7 +76,6 @@ struct cds_lfht {
 	pthread_attr_t resize_attr;
 	unsigned int in_progress_destroy;
 	unsigned long resize_target;
-	int resize_initiated;
 	struct urcu_work destroy_work;
 
 	/*
